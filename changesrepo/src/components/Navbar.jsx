@@ -1,5 +1,6 @@
 import React from 'react'
 import mylogo from "../assets/mylogo.png" ;
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header class="header" >
@@ -7,13 +8,13 @@ const Navbar = () => {
             <img src={mylogo} class="mylogo" alt=""/>
         </a>
         <nav class="navbar">
-            <a href="./index.html" class="active">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./menu.html">Menu</a>
-            <a href="./products.html">Products</a>
-            <a href="./review.html">Review</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./blog.html">Blog</a>
+            <a href="" class="active"><Link to="/">Home</Link></a>
+            <a href=""><Link to="/about">About</Link></a>
+            <a href=""><Link to="/menu">Menu</Link></a>
+            <a href=""><Link to="/products">Products</Link></a>
+            <a href=""><Link to="/reviews">Reviews</Link></a>
+            <a href="">Contact</a>
+            <a href="">Blog</a>
         </nav>
         <div class="buttons">
             <button id="search-btn">

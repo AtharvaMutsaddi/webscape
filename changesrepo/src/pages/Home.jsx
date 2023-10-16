@@ -1,7 +1,11 @@
 import React from 'react'
 import mylogo from "../assets/mylogo.png" ;
+import About from './About';
+import Menu from './Menu';
+import Products from './Products';
 const Home = () => {
   return (
+    <>
     <section class="home" id="home">
         <div class="content">
             <div data-aos="slide-right">
@@ -18,6 +22,10 @@ const Home = () => {
             <img src={mylogo} alt=""/>
         </div>
     </section>
+    <Menu></Menu>
+    <Products></Products>
+    <About></About>
+    </>
   )
 }
 
