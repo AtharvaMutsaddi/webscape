@@ -1,84 +1,29 @@
-import React from 'react'
+import React from 'react';
+import ProductItem from '../components/ProductItem'; 
+import productsData from '../assets/products.json';
 
 const Products = () => {
+  const lim= productsData.length < 3 ? productsData.length : 3
+  productsData=productsData.splice(0,lim)
   return (
-    <section class="products" id="products">
+    <section className="products" id="products">
       <div data-aos="slide-right">
-        <h1 class="heading">our <span>products</span></h1>
+        <h1 className="heading">our <span>products</span></h1>
       </div>
-      <div class="box-container" data-aos="slide-up">
-        <div class="box">
-          <div class="box-head">
-            <span class="title">mini burger</span>
-            <a href="#" class="name">Bacon Burger</a>
-          </div>
-          <div class="image">
-            <img
-              src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-              alt=""
-            />
-          </div>
-          <div class="box-bottom">
-            <div class="info">
-              <b class="price">$24</b>
-              <span class="amount">110gr / 300 Cal</span>
-            </div>
-            <div class="product-btn">
-              <a href="#">
-                <i class="fas fa-plus"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="box">
-          <div class="box-head">
-            <span class="title">cheese burger</span>
-            <a href="#" class="name">cheese Burger</a>
-          </div>
-          <div class="image">
-            <img
-              src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-              alt=""
-            />
-          </div>
-          <div class="box-bottom">
-            <div class="info">
-              <b class="price">$25</b>
-              <span class="amount">140gr / 2500 Cal</span>
-            </div>
-            <div class="product-btn">
-              <a href="#">
-                <i class="fas fa-plus"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="box">
-          <div class="box-head">
-            <span class="title">Double burger</span>
-            <a href="#" class="name">Double Burger</a>
-          </div>
-          <div class="image">
-            <img
-              src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-              alt=""
-            />
-          </div>
-          <div class="box-bottom">
-            <div class="info">
-              <b class="price">$24.00</b>
-              <span class="amount">440gr / 600 Cal</span>
-            </div>
-            <div class="product-btn">
-              <a href="#">
-                <i class="fas fa-plus"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+      <div className="box-container" data-aos="slide-up">
+        {productsData.map((product, index) => (
+          <ProductItem
+            key={index}
+            title={product.title}
+            name={product.name}
+            imageUrl={product.imageUrl}
+            price={product.price}
+            amount={product.amount}
+          />
+        ))}
       </div>
     </section>
-  )
+  );
 }
 
-export default Products
+export default Products;
