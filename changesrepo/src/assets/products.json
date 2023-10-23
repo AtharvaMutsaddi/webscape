@@ -3,28 +3,64 @@
       "title": "large burger",
       "name": "Bacon Burger",
       "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "price": "2400",
-      "amount": "210gr / 300 Cal"
+      "price": "100",
+      "amount": "210gr / 300 Cal",
+      "bestseller": false
     },
     {
         "title": "mini burger",
         "name": "Ham Burger",
         "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         "price": "25",
-        "amount": "110gr / 300 Cal"
+        "amount": "110gr / 300 Cal",
+        "bestseller": true
     },
     {
         "title": "medium burger",
         "name": "Bacon Burger",
         "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         "price": "14",
-        "amount": "115gr / 300 Cal"
+        "amount": "115gr / 300 Cal",
+        "bestseller": true
     },
     {
         "title": "mini burger",
         "name": "Bacon Burger",
         "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
         "price": "14",
-        "amount": "110gr / 300 Cal"
+        "amount": "110gr / 300 Cal",
+        "bestseller": true
+    },
+    {
+        "title": "mini burger",
+        "name": "Bacon Burger",
+        "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "price": "14",
+        "amount": "110gr / 300 Cal",
+        "bestseller": false
+    },
+    {
+        "title": "mini burger",
+        "name": "Bacon Burger",
+        "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "price": "14",
+        "amount": "110gr / 300 Cal",
+        "bestseller": true
+    },
+    {
+        "title": "mini burger",
+        "name": "Bacon Burger",
+        "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "price": "14",
+        "amount": "110gr / 300 Cal",
+        "bestseller": false
+    },
+    {
+        "title": "mini burger",
+        "name": "Bacon Burger",
+        "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "price": "14",
+        "amount": "110gr / 300 Cal",
+        "bestseller": false
     }
 ]
