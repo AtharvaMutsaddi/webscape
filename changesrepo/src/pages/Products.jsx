@@ -2,7 +2,7 @@ import React from 'react';
 import ProductItem from '../components/ProductItem'; 
 import productsData from '../assets/products.json';
 
-const Products = () => {
+const Products = ({addToCart}) => {
   const lim= productsData.length < 3 ? productsData.length : 3
   productsData=productsData.splice(0,lim)
   return (
@@ -19,6 +19,7 @@ const Products = () => {
             imageUrl={product.imageUrl}
             price={product.price}
             amount={product.amount}
+            addToCart={addToCart}
           />
         ))}
       </div>

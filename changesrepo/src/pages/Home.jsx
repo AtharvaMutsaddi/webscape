@@ -4,7 +4,7 @@ import About from './About';
 import Menu from './Menu';
 import Products from './Products';
 import Reviews from './Reviews';
-const Home = () => {
+const Home = ({addToCart}) => {
   return (
     <>
     <section class="home" id="home">
@@ -24,7 +24,7 @@ const Home = () => {
         </div>
     </section>
     <Menu></Menu>
-    <Products></Products>
+    <Products addToCart={addToCart}/>
     <About></About>
     <Reviews></Reviews>
     </>
