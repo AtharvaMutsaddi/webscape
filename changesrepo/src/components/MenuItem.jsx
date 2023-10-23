@@ -1,11 +1,11 @@
 import React from "react";
 
-const MenuItem = ({imglink,menucat,title,price}) => {
+const MenuItem = ({imageSrc,menucat,title,price}) => {
   return (
     <div class="box">
       <div class="box-head">
         <img
-          src={imglink}
+          src={imageSrc}
           alt=""
         />
         <span class="menu-category">{menucat}</span>

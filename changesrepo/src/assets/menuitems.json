@@ -1,22 +1,27 @@
 [
     {
       "category": "Pizza",
-      "title": "6 Mini Pizzas",
-      "imageSrc": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1981&q=80",
-      "price": "104.99"
+      "title": "7 Mini Pizzas",
+      "imageSrc": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=2000",
+      "price": "105.99"
     },
     {
         "category": "Burger",
         "title": "6 Mini Burgers",
-        "imageSrc": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1981&q=80",
+        "imageSrc": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=2000",
         "price": "5.99"
       },
       {
         "category": "Samosa",
         "title": "6 Mini Smaosa",
-        "imageSrc": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1981&q=80",
+        "imageSrc": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=2000",
+        "price": "114.99"
+      },
+      {
+        "category": "Samosa",
+        "title": "6 Mini Smaosa",
+        "imageSrc": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=2000",
         "price": "114.99"
       }
-
 ]
   

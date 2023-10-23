@@ -5,6 +5,8 @@ const Reviews = () => {
 
   return (
     <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span> </h1>
+      <div>
       {reviewsData.map((review, index) => (
         <Review
           key={index}
@@ -16,6 +18,8 @@ const Reviews = () => {
           aos={index%2 ? "slide-left":"slide-right"}
         />
       ))}
+      </div>
+      
     </section>
   );
 };

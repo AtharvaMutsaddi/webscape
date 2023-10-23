@@ -3,6 +3,7 @@ import mylogo from "../assets/mylogo.png" ;
 import About from './About';
 import Menu from './Menu';
 import Products from './Products';
+import Reviews from './Reviews';
 const Home = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const Home = () => {
     <Menu></Menu>
     <Products></Products>
     <About></About>
+    <Reviews></Reviews>
     </>
   )
 }
