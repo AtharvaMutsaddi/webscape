@@ -1,7 +1,7 @@
 import React from 'react'
 import MenuItem from '../components/MenuItem'
 import menuitems from '../assets/menuitems.json'
-const Menu = () => {
+const Menu = ({addToCart}) => {
   return (
     <section class="menu" id="menu">
       <div data-aos="slide-right">
@@ -15,6 +15,7 @@ const Menu = () => {
           category={item.category}
           title={item.title}
           price={item.price}
+          addToCart={addToCart}
           />
         ))}
       </div>

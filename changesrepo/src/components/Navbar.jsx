@@ -1,8 +1,8 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
 import mylogo from "../assets/mylogo.png";
 import { Link } from "react-router-dom";
 import CartItemsContainer from "./CartItemsContainer";
-const Navbar = ({cart}) => {
+const Navbar = ({ cart, removeFromCart }) => {
   const [isCartVisible, setIsCartVisible] = useState(false);
   const toggleCartVisibility = () => {
     setIsCartVisible(!isCartVisible);
@@ -54,7 +54,11 @@ const Navbar = ({cart}) => {
           <i class="fas fa-search"></i>
         </div>
       </div>
-      <CartItemsContainer isCartVisible={isCartVisible} cartitems={cart}></CartItemsContainer>
+      <CartItemsContainer
+        isCartVisible={isCartVisible}
+        cartitems={cart}
+        removeFromCart={removeFromCart}
+      ></CartItemsContainer>
     </header>
   );
 };

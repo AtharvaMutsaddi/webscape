@@ -23,7 +23,7 @@ const Home = ({addToCart}) => {
             <img src={mylogo} alt=""/>
         </div>
     </section>
-    <Menu></Menu>
+    <Menu addToCart={addToCart}></Menu>
     <Products addToCart={addToCart}/>
     <About></About>
     <Reviews></Reviews>

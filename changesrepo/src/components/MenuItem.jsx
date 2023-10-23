@@ -1,6 +1,14 @@
 import React from "react";
 
-const MenuItem = ({imageSrc,menucat,title,price}) => {
+const MenuItem = ({imageSrc,menucat,title,price,addToCart}) => {
+  const item={
+    imageSrc:imageSrc,
+    price: price
+  }
+  const handleAddToCart = () => {
+    addToCart(item);
+    alert("Item added to cart successfully")
+  };
   return (
     <div class="box">
       <div class="box-head">
@@ -13,9 +21,7 @@ const MenuItem = ({imageSrc,menucat,title,price}) => {
       </div>
       <div class="box-bottom">
         <div class="price">${price}</div>
-        <a href="#" class="btn">
-          <i class="fas fa-shopping-cart"></i>
-        </a>
+        <button className='btn ordernowbtn' onClick={handleAddToCart}>Add</button>
       </div>
     </div>
   );

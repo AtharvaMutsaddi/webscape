@@ -1,7 +1,7 @@
 import React from "react";
 import CartItem from "./CartItem";
-
-const CartItemsContainer = ({ isCartVisible,cartitems }) => {
+import { Link } from "react-router-dom";
+const CartItemsContainer = ({ isCartVisible,cartitems,removeFromCart }) => {
   return (
     <div class={`cart-items-container ${isCartVisible ? "active" : ""}`}>
       {cartitems.map((item, index) => (
@@ -10,11 +10,10 @@ const CartItemsContainer = ({ isCartVisible,cartitems }) => {
           imageSrc={item.imageSrc}
           price={item.price}
           number={index + 1}
+          removeFromCart={removeFromCart}
         />
       ))}
-      <a href="#" class="btn">
-        check out{" "}
-      </a>
+      <Link to="/checkout" class="btn ordernowbtn">Checkout?</Link>
     </div>
   );
 };

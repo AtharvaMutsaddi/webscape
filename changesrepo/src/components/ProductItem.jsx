@@ -7,6 +7,7 @@ const ProductItem = ({ title, name, imageUrl, price, amount,addToCart}) => {
   }
   const handleAddToCart = () => {
     addToCart(item);
+    alert("Item added to cart successfully")
   };
   return (
     <div className="box">
@@ -19,7 +20,7 @@ const ProductItem = ({ title, name, imageUrl, price, amount,addToCart}) => {
       </div>
       <div className="box-bottom">
         <div className="info">
-          <b className="price">{price}</b>
+          <b className="price">$ {price}</b>
           <span className="amount">{amount}</span>
         </div>
         <div className="product-btn">

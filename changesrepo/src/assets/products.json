@@ -3,28 +3,28 @@
       "title": "large burger",
       "name": "Bacon Burger",
       "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-      "price": "$2400",
+      "price": "2400",
       "amount": "210gr / 300 Cal"
     },
     {
         "title": "mini burger",
         "name": "Ham Burger",
         "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        "price": "$25",
+        "price": "25",
         "amount": "110gr / 300 Cal"
     },
     {
         "title": "medium burger",
         "name": "Bacon Burger",
         "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        "price": "$14",
+        "price": "14",
         "amount": "115gr / 300 Cal"
     },
     {
         "title": "mini burger",
         "name": "Bacon Burger",
         "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-        "price": "$14",
+        "price": "14",
         "amount": "110gr / 300 Cal"
     }
 ]
